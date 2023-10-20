@@ -23,10 +23,11 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\bg.jpg");
-  background-position: fixed;
-  color: #ffffff;
+  background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\pexels-eberhard-grossgasteiger-2088170.jpg");
+  background-repeat: no-repeat;
+  color: black;
   text-transform: uppercase;
+  width: 1500px;
 }
 
 header section {
