@@ -11,9 +11,10 @@ article {
   padding:0 1em;
 }
 
-section{
+section {
   margin: 1em;
   padding: 1em;
+  border-bottom: 1px solid rgba(176, 144, 159, 0.8);
 }
 
 header, main, footer {
@@ -21,7 +22,7 @@ header, main, footer {
 }
 
 header {
-  padding: 2em;
+  padding: 1em;
   text-align: center;
   background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\pexels-eberhard-grossgasteiger-2088170.jpg");
   background-repeat: no-repeat;
@@ -41,6 +42,7 @@ header img {
 
 }
 
+
 h1 {
   margin: 1em 0;
 }
@@ -48,7 +50,14 @@ h1 {
 h3 {
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 20px;
 
+}
+
+h4 {
+  color: rgb(242, 63, 117);
+  text-decoration-style: solid;
+  text-transform: uppercase;
 }
 
 main {
@@ -56,18 +65,68 @@ main {
 }
 
 .course {
+  margin-bottom: 1em;
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; */
 }
 
 .course .title {
+  font-weight: bold;
+  /* flex: 0 0 33.3%; */
+  margin-bottom: 10px;
+  max-width: 70%
 }
 
-.course .descrition {
+.course .institution {
+  /* flex: 0 0 66,6%;
+
+  max-width: 25%; */
+}
+
+.course .date {
+
+  /* max-width: 25%;
+  text-align: right; */
+
+}
+
+
+.course .description {
+  /* flex: 0 0 66.6%;
+  max-width: 66.6% */
+}
+
+.course .description p {
+  padding-left: 1em;
+}
+
+.logo {
+  width: 2px;
+
 }
 
 .school span {
   color: #A7B8BF;
 }
 
+.literature {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
 footer {
  padding: 1em;
+}
+
+span {
+  font-style: italic;
+}
+
+#institution {
+  font-style: normal;
 }
