@@ -7,14 +7,43 @@ body {
   padding: 1.8em;
 }
 
+a {
+  color: rgb(47, 38, 150);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
 article {
   padding:0 1em;
+  width: 800px;
 }
+
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
 
 section {
   margin: 1em;
   padding: 1em;
-  border-bottom: 1px solid rgba(176, 144, 159, 0.8);
+  border-bottom: 1px solid rgb(33, 27, 97);
+
 }
 
 header, main, footer {
@@ -24,11 +53,12 @@ header, main, footer {
 header {
   padding: 1em;
   text-align: center;
-  background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\pexels-eberhard-grossgasteiger-2088170.jpg");
+  /* background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\pexels-eberhard-grossgasteiger-2088170.jpg"); */
+  background-color: rgb(33, 27, 97);
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   text-transform: uppercase;
-  width: 1500px;
+  width: 1300px;
 }
 
 header section {
@@ -48,6 +78,7 @@ h1 {
 }
 
 h3 {
+  color: rgb(33, 27, 97);
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -55,7 +86,7 @@ h3 {
 }
 
 h4 {
-  color: rgb(242, 63, 117);
+  color: rgb(46, 36, 150);
   text-decoration-style: solid;
   text-transform: uppercase;
 }
@@ -78,10 +109,16 @@ main {
   max-width: 70%
 }
 
+.course .instructor {
+  /* flex: 0 0 33.3%; */
+
+}
+
 .course .institution {
   /* flex: 0 0 66,6%;
 
   max-width: 25%; */
+
 }
 
 .course .date {
@@ -121,6 +158,17 @@ main {
 
 footer {
  padding: 1em;
+ color: white;
+ background-color: rgb(33, 27, 97);
+ width: 1300px;
+
+
+}
+
+footer a
+{
+ color: white;
+ text-decoration: none;
 }
 
 span {
@@ -130,3 +178,48 @@ span {
 #institution {
   font-style: normal;
 }
+
+.hobbies {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+
+}
+/* 
+.show-hide-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-hide-text a {
+  order: 2;
+}
+
+.show-hide-text p {
+  position: relative;
+  overflow: hidden;
+  max-height: 60px; // The Height of 3 rows
+}
+
+.show-hide-text p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; // 3 Rows of text
+  -webkit-box-orient: vertical;
+}
+
+.show-less {
+  display: none;
+}
+
+.show-less:target {
+  display: block;
+}
+
+.show-less:target ~ p {
+  display: block;
+  max-height: 100%;
+}
+
+.show-less:target + a {
+  display: none;
+} */
