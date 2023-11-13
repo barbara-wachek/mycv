@@ -20,6 +20,7 @@ a:hover {
 article {
   padding:0 1em;
   width: 800px;
+  margin-bottom: 40px;
 }
 
 
@@ -185,7 +186,15 @@ span {
   margin-right: 10px;
 
 }
-/* 
+
+#skillstools {
+  width: 800px;
+  text-align: justify;
+  font-size: 1em;
+
+
+}
+/*
 .show-hide-text {
   display: flex;
   flex-wrap: wrap;
