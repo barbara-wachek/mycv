@@ -15,3 +15,5 @@ Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem
 
 ### Wymagania
 Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
+
+[Web page](https://barbara-wachek.github.io/mycv/)
