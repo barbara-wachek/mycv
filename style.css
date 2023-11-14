@@ -54,12 +54,9 @@ header, main, footer {
 header {
   padding: 1em;
   text-align: center;
-  /* background-image: url("C:\\Users\\PBL_Basia\\Documents\\My scripts\\MyCV\\img\\pexels-eberhard-grossgasteiger-2088170.jpg"); */
   background-color: rgb(33, 27, 97);
-  background-repeat: no-repeat;
   color: white;
-  text-transform: uppercase;
-  width: 1300px;
+  /* width: 1300px; */
 }
 
 header section {
@@ -72,10 +69,14 @@ header img {
   width: 150px;
 
 }
+header p {
+  text-align: justify;
+}
 
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -161,7 +162,7 @@ footer {
  padding: 1em;
  color: white;
  background-color: rgb(33, 27, 97);
- width: 1300px;
+ /* width: 1300px; */
 
 
 }
@@ -191,8 +192,31 @@ span {
   width: 800px;
   text-align: justify;
   font-size: 1em;
+}
 
 
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
 /*
 .show-hide-text {
