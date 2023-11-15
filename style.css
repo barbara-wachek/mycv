@@ -136,19 +136,26 @@ p {
 
 }
 
-.course .institution {
+.institution {
   color: black;
   padding-top: 5px;
   font-size: 0.9em;
 
 }
 
-.course .date {
+.date {
   color: black;
   padding-top: 5px;
   font-size: 0.9em;
 
 }
+
+.certificate .title {
+  color: rgb(46, 36, 150);
+  text-align:left;
+}
+
+
 
 .literature {
   margin-bottom: 10px;
