@@ -223,11 +223,11 @@ span {
     display: block;
   }
 
-  .course .title, .course .description .job-title .institution .myhobbies .clifton {
+  .course .title, .course .description .job-title .institution  {
     max-width: 60%;
   }
   .header p {
-    max-width: 100%
+    width: 90%
   }
 }
 
