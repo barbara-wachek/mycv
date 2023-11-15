@@ -19,7 +19,7 @@ a:hover {
 
 article {
   padding:0 1em;
-  max-width: 80%;
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
@@ -155,6 +155,28 @@ p {
 }
 
 
+.aboutme {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.clifton h4 {
+  color: rgb(46, 36, 150);
+  -ms-flex: 0 0 33,3%;
+  flex: 0 0 33,3%;
+  max-width: 70%;
+  text-align:left;
+}
+
+.myhobbies {
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 40%;
+}
+
+
 footer {
  padding: 1em;
  color: white;
@@ -190,12 +212,15 @@ span {
 
 
 @media only screen and (max-width: 768px) {
-  .course {
+  .course .aboutme {
     display: block;
   }
 
-  .course .title, .course .description .job-title .institution {
-    max-width: 40%;
+  .course .title, .course .description .job-title .institution .myhobbies .clifton {
+    max-width: 60%;
+  }
+  .header p {
+    max-width: 100%
   }
 }
 
