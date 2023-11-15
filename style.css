@@ -231,6 +231,7 @@ span {
   }
   .description {
     padding-left: 0;
+    padding-top: 1em;
   }
 
   header section {
