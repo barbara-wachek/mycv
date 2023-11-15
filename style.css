@@ -194,8 +194,8 @@ span {
     display: block;
   }
 
-  .course .title, .course .description {
-    max-width: 50%;
+  .course .title, .course .description .job-title .institution {
+    max-width: 40%;
   }
 }
 
