@@ -226,7 +226,7 @@ span {
   .course .title, .course .description .job-title .institution  {
     max-width: 60%;
   }
-  .header p {
+  header section {
     width: 90%
   }
 }
