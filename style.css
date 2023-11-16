@@ -109,7 +109,7 @@ main {
   color: rgb(46, 36, 150);
   -ms-flex: 0 0 33,3%;
   flex: 0 0 33,3%;
-  max-width: 33%;
+  width: 33%;
   text-align:left;
 }
 

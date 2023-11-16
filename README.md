@@ -1,19 +1,20 @@
 # CV base
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+Full tutorial with description on the Fly Nerd blog: [CV in HTML / CSS](https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html)
 
-### Zakres
+### Range
 
-Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem HTML i CSS.
+The aim of the project is to create a website of your own CV using HTML and CSS.
 
-### Z tym tutorialem:
-- wykorzystasz znaczniki HTML5
-- ostylujesz stronę za pomocą CSS
-- stworzysz prosty, czytelny i estetyczny layout
-- wykorzystasz flexbox do tworzenia układu strony
-- przystosujesz stronę pod urządzenia mobilne (RWD)
+### With this tutorial:
+- you will use HTML5 tags
+- you style the page using CSS
+- you will create a simple, clear and aesthetic layout
+- you will use flexbox to create the page layout
+- adapt the website for mobile devices (RWD)
 
-### Wymagania
-Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
+### Requirements
+Basic knowledge of HTML and CSS is required to complete the tasks!
 
-[Web page](https://barbara-wachek.github.io/mycv/)
+### My output
+[Website](https://barbara-wachek.github.io/mycv/)
