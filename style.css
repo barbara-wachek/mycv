@@ -223,9 +223,9 @@ span {
     display: block;
   }
 
-  .course .title, .course .description  {
+  /* .course .title, .course .description  {
     max-width: 80%;
-  }
+  } */
   .job-title .institution  {
     max-width: 70%;
   }
